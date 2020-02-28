@@ -2,6 +2,8 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import AppIndex from './components/index';
 import './App.css';
+import './assets/css/customAnimation.css';
+
 
 function App() {
   return (
