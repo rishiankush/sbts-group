@@ -51,7 +51,7 @@ class CompletedProjects extends Component {
 								<h3 className="title">Have any question about us?</h3>
 								<p>Dont’t hesitate to contact us.</p>
 							</div>
-							<a href="contact-us-standard.html" className="contact solid-button-one">Contact us</a>
+							<a href="#" className="contact solid-button-one">Contact us</a>
 						</div>
 					</div>
 				</div>

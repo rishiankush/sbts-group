@@ -22,7 +22,7 @@ class OurGallery extends Component {
                         </div>
                     </div>
                     <div className="main-wrapper">
-                        <a href="product-full-width.html" className="view-gallery">View Gallery</a>
+                        <a href="#" className="view-gallery">View Gallery</a>
                         <div className="gallery-slider lightgallery">
                             <div className="item">
                                 <div className="img-box">

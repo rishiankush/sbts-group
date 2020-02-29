@@ -64,7 +64,7 @@ class Footer extends Component {
                                 <p>&copy; 2019 copyright all right reserved</p>
                                 <ul>
                                     <li><a href="#">Privace & Policy.</a></li>
-                                    <li><a href="faq.html">Faq.</a></li>
+                                    <li><a href="#">Faq.</a></li>
                                     <li><a href="#">Terms.</a></li>
                                 </ul>
                             </div>
