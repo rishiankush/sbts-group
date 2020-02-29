@@ -11,6 +11,7 @@ import OurBlog from './common/OurBlog';
 import DoProjects from './common/DoProjects';
 import Products from './common/Products';
 import MainFooter from './common/MainFooter';
+import StaticMap from './common/StaticMap';
 
 class AppIndex extends Component {
   constructor(props) {
@@ -29,6 +30,7 @@ class AppIndex extends Component {
             <WhatWeDo />
             {/* <CompletedProjects /> */}
             <DoProjects />
+            <StaticMap />
             <MainFooter />
         </div>
     );
