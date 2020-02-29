@@ -19,7 +19,7 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-3 col-sm-6 col-12 about-widget">
-                                    <a href="index.html" className="logo"><img src={SbtsLogo} alt="" /></a>
+                                    <a href="index.html" className="Footerlogo"><img src={SbtsLogo} alt="" /></a>
                                     <a href="#" className="email">info@sbts.com</a>
                                     <a href="#" className="phone">1234567890</a>
                                 </div>

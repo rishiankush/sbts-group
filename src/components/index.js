@@ -11,6 +11,7 @@ import OurBlog from './common/OurBlog';
 import DoProjects from './common/DoProjects';
 import Products from './common/Products';
 import MainFooter from './common/MainFooter';
+import Leadership from './common/Leadership';
 import StaticMap from './common/StaticMap';
 
 class AppIndex extends Component {
@@ -29,6 +30,7 @@ class AppIndex extends Component {
             <Products />
             <WhatWeDo />
             {/* <CompletedProjects /> */}
+            <Leadership />
             <DoProjects />
             <StaticMap />
             <MainFooter />
