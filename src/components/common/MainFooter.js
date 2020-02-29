@@ -35,11 +35,11 @@ class Footer extends Component {
                                 <div className="col-lg-3 col-sm-6 col-12 footer-list">
                                     <h5 className="title">Quick Links</h5>
                                     <ul>
-                                        <li><a href="about-us-standard.html">Home</a></li>
-                                        <li><a href="project-standard.html">About Us</a></li>
-                                        <li><a href="team-standard.html">Services</a></li>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
                                         <li><a href="#">Careers</a></li>
-                                        <li><a href="blog-default.html">Media</a></li>
+                                        <li><a href="#">Media</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
@@ -61,7 +61,7 @@ class Footer extends Component {
                                 <p>&copy; 2019 copyright all right reserved</p>
                                 <ul>
                                     <li><a href="#">Privace & Policy.</a></li>
-                                    <li><a href="faq.html">Faq.</a></li>
+                                    <li><a href="#">Faq.</a></li>
                                     <li><a href="#">Terms.</a></li>
                                 </ul>
                             </div>

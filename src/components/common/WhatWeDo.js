@@ -28,7 +28,7 @@ class WhatWeDo extends Component {
                                 <p>As a full-service international ICT company whose clients have varied complex needs, SBTS Group champions the position of providing expertise in a range of current and emerging technologies. It is out purpose to simplify your technology so that you can focus on running your organization, and we know the best way to accomplish that is to listen to your IT challenges and create a plan that is customized for what you do and how you do it.  Our enterprise level services  include:</p>
                                 {/* <p className="quote">Lorem ipsum dolor sit amet, hendrerit omittantur mel et, est ut vidit animal iracundia luis.</p>
                             <div className="author"><span className="name">Rashed Kabir, </span>CEO CreativeGigs</div> */}
-                                <a href="contact-us-standard.html" class="contact-us white-shdw-button">Read More <i class="icon flaticon-next"></i></a>
+                                <a href="#" class="contact-us white-shdw-button">Read More <i class="icon flaticon-next"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-6 order-lg-first">
@@ -38,7 +38,7 @@ class WhatWeDo extends Component {
                         </div>
                     </div>
                 </div>
-                <a href="about-us-agency.html" className="learn-more theme-button-two" data-aos="fade-left">Learn More <i class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>
+                <a href="#" className="learn-more theme-button-two" data-aos="fade-left">Learn More <i class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>
             </div>
         );
 

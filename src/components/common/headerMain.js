@@ -16,7 +16,7 @@ class MainHeader extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="logo"><a href="index.html"><img src={SbtsLogo} alt="" /></a></div>
+                            <div className="logo"><a href="#"><img src={SbtsLogo} alt="" /></a></div>
                         </div>
                         <div className="col-md-8">
                             <nav id="mega-menu-holder" className="navbar navbar-expand-lg">
@@ -27,7 +27,7 @@ class MainHeader extends Component {
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul className="navbar-nav">
                                             <li className="nav-item active dropdown">
-                                                <a href="index.html" className="nav-link dropdown-toggle" data-toggle="dropdown">Home</a>
+                                                <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Home</a>
                                             </li>
                                             <li className="nav-item dropdown position-relative">
                                                 <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">About Us</a>
@@ -41,7 +41,7 @@ class MainHeader extends Component {
                                             <li className="nav-item dropdown position-relative">
                                                 <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Media</a>
                                             </li>
-                                            <li className="nav-item dropdown position-relative"><a href="contact-us-standard.html" className="contact-us white-shdw-button">Contact Us <i class="icon flaticon-next"></i></a></li>
+                                            <li className="nav-item dropdown position-relative"><a href="#" className="contact-us white-shdw-button">Contact Us <i class="icon flaticon-next"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

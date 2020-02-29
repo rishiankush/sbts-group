@@ -96,7 +96,7 @@ class Products extends Component {
                             </div>
                         </div>
                         <div className="col-lg-12 text-center">
-                        <a href="contact-us-standard.html" class="contact-us white-shdw-button">Read More <i class="icon flaticon-next"></i></a>
+                        <a href="#" class="contact-us white-shdw-button">Read More <i class="icon flaticon-next"></i></a>
                         </div>
                     </div>
                 </div>

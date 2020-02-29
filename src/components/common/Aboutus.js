@@ -43,7 +43,7 @@ class AboutUs extends Component {
                             </div>
                         </div>
                     </div>
-                    <a href="about-us-agency.html" className="learn-more theme-button-two" data-aos="fade-left">Learn More <i class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>
+                    <a href="#" className="learn-more theme-button-two" data-aos="fade-left">Learn More <i class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>
                 </div>
         );
 
