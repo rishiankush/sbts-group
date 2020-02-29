@@ -31,8 +31,8 @@ class AppIndex extends Component {
             <WhatWeDo />
             {/* <CompletedProjects /> */}
             <Leadership />
-            <DoProjects />
             <StaticMap />
+            <DoProjects />
             <MainFooter />
         </div>
     );
