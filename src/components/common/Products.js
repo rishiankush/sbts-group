@@ -20,7 +20,7 @@ class Products extends Component {
                 <img src={require("../../assets/images/shape/shape-56.svg")} alt="" class="shape-two" />
                 <div class="container">
                     <div class="theme-title-one text-center">
-                        <div class="upper-title">Our Products Suites</div>
+                        <div class="upper-title">Our Product Suites</div>
                     </div>
 
                     <div class="row">

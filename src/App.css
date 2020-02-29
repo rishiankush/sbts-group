@@ -259,6 +259,27 @@ padding: 50px 0;
   color: #fff;;
 }
 
+.footer-information .officelocations p {
+  padding: 0 !important;
+}
+
+.footer-information .officelocations p .mappin {
+  width: 20px;
+  margin: 5px 5px 0 0px;
+  float: left;
+}
+
+.footer-information .officelocations p span
+{
+float: left;
+width: 90%;
+}
+
+.FooterIcons {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+
 /* end custom style */
 
 /*** 

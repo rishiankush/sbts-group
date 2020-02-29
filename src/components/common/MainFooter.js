@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { withRouter } from 'react-router-dom';
 import SbtsLogo from '../../assets/images/logo/sbtsLogo.png';
+import LocationMap from '../../assets/images/marker/pin.png';
 
 class Footer extends Component {
     constructor(props) {
@@ -44,11 +45,13 @@ class Footer extends Component {
                                 </div>
                                 <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
                                     <h5 className="title">Our Offices</h5>
-                                    <p>Pune</p>
-                                    <p>Freetown Sierra Leone</p>
-                                    <p>Washington DC</p>
+                                    <div className="officelocations">
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span>Sierra Leone</span></p>
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span> Pune </span></p>
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span>Sierra Leone,Washington DC</span></p>
+                                    </div>
 
-                                    <ul>
+                                    <ul className="FooterIcons">
                                         <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
