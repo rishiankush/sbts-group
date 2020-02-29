@@ -170,9 +170,21 @@ a{
   width: 250px;
 }
 
- #mega-menu-holder .navbar-nav .nav-item .nav-link
+ /* #mega-menu-holder .navbar-nav .nav-item .nav-link
 {
   padding: 12px 0 0 0;
+} */
+
+.navbar-light .navbar-nav .nav-link
+{
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+  padding: 0;
+  margin: 0;
 }
 
 #theme-banner-one .bannerHaderImg {
@@ -278,6 +290,43 @@ width: 90%;
 .FooterIcons {
   display: inline-block;
   margin: 20px 0 0 0;
+}
+
+
+
+.navbar .dropdown {
+  position: relative !important;
+}
+
+.navbar .dropdown::after {
+  content: "";
+  float: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dropdown.nav-item:hover .dropdown-menu.show {
+  display: block !important
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid 
+transparent;
+border-bottom: 0;
+border-left: .3em solid
+  transparent;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #357694;
 }
 
 /* end custom style */
@@ -9885,3 +9934,44 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 .studio-footer-one .bottom-footer ul li {display: inline-block;}
 .studio-footer-one .bottom-footer ul li a {color: rgba(255,255,255,0.5); margin: 0 5px;}
 .studio-footer-one .bottom-footer ul li a:hover {color: #fff;}
+
+@media only screen and (max-width: 480px)
+{
+
+  #theme-banner-one .main-wrapper {
+    padding: 120px 0 155px;
+}
+
+#theme-banner-one .main-wrapper .main-title {
+  font-family: 'CircularStdmed';
+  font-size: 35px;
+  line-height: 45px;
+  padding: 25px 0 35px;
+}
+
+  .navbar-toggler {
+    position: absolute;
+    top: -60px;
+    right: 10px;
+}
+
+#basic-navbar-nav {
+  padding: 12px 5px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+
+  padding: 0 15px !important;
+  font-size: 20px !important;
+border-top: 0 !important;
+margin: 0px;
+
+}
+
+.navbar .navbar-toggler {
+  font-size: 20px !important;
+  padding: 5px 10px !important;
+
+}
+
+}
