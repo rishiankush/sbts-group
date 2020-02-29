@@ -651,7 +651,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .arch-title.show-pr .line:before {width: 170px;}
 .theme-title-one,.theme-title-two {position: relative;}
 .theme-title-one .upper-title {
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
   padding-bottom: 15px;
 }

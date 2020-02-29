@@ -35,9 +35,9 @@ class HeaderBanner extends Component {
 						<h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">Global Full <br />Service  <br />ICT company.</h1>
 						{/* <p className="sub-title wow fadeInUp animated" data-wow-delay="0.9s">The 3 golden rules professional graphic designer don’t <br /> want you to know about.</p> */}
 						<ul className="button-group lightgallery">
-							<li><a href="about-us-standard.html" className="more-button solid-button-one wow fadeInLeft animated" data-wow-delay="1.5s">More About us <i className="fa fa-angle-right icon-right" aria-hidden="true"></i></a></li>
+							{/* <li><a href="about-us-standard.html" className="more-button solid-button-one wow fadeInLeft animated" data-wow-delay="1.5s">More About us <i className="fa fa-angle-right icon-right" aria-hidden="true"></i></a></li> */}
 
-							<li><a data-fancybox href="https://www.youtube.com/embed/aXFSJTjVjw0" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">See live demo. <i class="flaticon-play-button icon-right"></i></a></li>
+							<li><a data-fancybox href="https://www.youtube.com/embed/aXFSJTjVjw0" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">Learn about our Company. <i class="flaticon-play-button icon-right"></i></a></li>
 						</ul>
 					</div>
 				</div>

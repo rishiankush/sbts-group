@@ -20,9 +20,9 @@ class Products extends Component {
                 <img src={require("../../assets/images/shape/shape-56.svg")} alt="" class="shape-two" />
                 <div class="container">
                     <div class="theme-title-one text-center">
-                        <div class="upper-title">Products</div>
+                        <div class="upper-title">Our Products Suites</div>
                         {/* <h2 class="main-title">Our Services</h2> */}
-                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. </p>
+                        {/* <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. </p> */}
                     </div>
 
                     <div class="row">

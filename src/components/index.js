@@ -12,8 +12,6 @@ import DoProjects from './common/DoProjects';
 import Products from './common/Products';
 import MainFooter from './common/MainFooter';
 
-
-
 class AppIndex extends Component {
   constructor(props) {
     super(props);
@@ -29,7 +27,7 @@ class AppIndex extends Component {
             <Aboutus />
             <Products />
             <WhatWeDo />
-            <CompletedProjects />
+            {/* <CompletedProjects /> */}
             <DoProjects />
             <MainFooter />
         </div>

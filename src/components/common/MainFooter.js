@@ -27,24 +27,27 @@ class Footer extends Component {
                                     <h5 className="title">Products</h5>
                                     <ul>
                                         <li><a href="#">E-Goverment Suite</a></li>
-                                        <li><a href="#">Identification Management</a></li>
-                                        <li><a href="#">Health and Wellness Management</a></li>
-                                        <li><a href="#">Cyber Security Management</a></li>
+                                        <li><a href="#">Financial Suite</a></li>
+                                        <li><a href="#">Training Suite</a></li>
+                                        <li><a href="#">Call Center Suite</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-sm-6 col-12 footer-list">
                                     <h5 className="title">Quick Links</h5>
                                     <ul>
                                         <li><a href="about-us-standard.html">Home</a></li>
-                                        <li><a href="project-standard.html">About Us</a></li>
+                                        {/* <li><a href="project-standard.html">About Us</a></li> */}
                                         <li><a href="team-standard.html">Services</a></li>
                                         <li><a href="#">Careers</a></li>
-                                        <li><a href="blog-default.html">Media</a></li>
+                                        <li><a href="blog-default.html">Media Kit</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
-                                    <h5 className="title">Our Address</h5>
-                                    <p>Virginia, USA</p>
+                                    <h5 className="title">Our Offices</h5>
+                                    <p>Pune</p>
+                                    <p>Freetown Sierra Leone</p>
+                                    <p>Washington DC</p>
+
                                     <ul>
                                         <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
