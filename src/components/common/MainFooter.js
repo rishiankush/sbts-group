@@ -27,10 +27,10 @@ class Footer extends Component {
                                 <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list">
                                     <h5 className="title">Products</h5>
                                     <ul>
-                                        <li><a href="#">E-Goverment Suite</a></li>
-                                        <li><a href="#">Financial Suite</a></li>
-                                        <li><a href="#">Training Suite</a></li>
-                                        <li><a href="#">Call Center Suite</a></li>
+                                        <li><a href="#">E-Goverment</a></li>
+                                        <li><a href="#">Financial</a></li>
+                                        <li><a href="#">Training</a></li>
+                                        <li><a href="#">Call Center</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-sm-6 col-12 footer-list">

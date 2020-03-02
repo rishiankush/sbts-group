@@ -20,7 +20,7 @@ class Products extends Component {
                 <img src={require("../../assets/images/shape/shape-56.svg")} alt="" class="shape-two" />
                 <div class="container">
                     <div class="theme-title-one text-center">
-                        <div class="upper-title">Our Product Suites</div>
+                        <div class="upper-title">Our Product Suite</div>
                     </div>
 
                     <div class="row">
@@ -32,7 +32,7 @@ class Products extends Component {
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={EGovermentSuite} alt="" class="shape" />
                                 </div>
-                                <h5 class="title">E-Goverment Suite</h5>
+                                <h5 class="title">E-Goverment</h5>
                                 <ul>
                                     <li> Identification Management </li>
                                     <li> Health and Wellness Management </li>
@@ -51,7 +51,7 @@ class Products extends Component {
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={FinancialSuite} alt="" class="shape" />
                                 </div>
-                                <h5 class="title">Financial Suite</h5>
+                                <h5 class="title">Financial</h5>
                                 <ul>
                                     <li> Payment Authentication and Management System </li>
                                     <li> Payment Gateway </li>
@@ -69,7 +69,7 @@ class Products extends Component {
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={TrainingSuite} alt="" class="shape" />
                                 </div>
-                                <h5 class="title">Training Suite</h5>
+                                <h5 class="title">Training</h5>
                                 <ul>
                                     <li> Online Training </li>
                                     <li>  E-lerarning </li>
@@ -88,7 +88,7 @@ class Products extends Component {
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={CallCenterSuite} alt="" class="shape" />
                                 </div>
-                                <h5 class="title">Call Center Suite</h5>
+                                <h5 class="title">Call Center</h5>
 
                                 <ul>
                                     <li>  Health Management </li>
