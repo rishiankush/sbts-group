@@ -170,11 +170,6 @@ a{
   width: 250px;
 }
 
- /* #mega-menu-holder .navbar-nav .nav-item .nav-link
-{
-  padding: 12px 0 0 0;
-} */
-
 .navbar-light .navbar-nav .nav-link
 {
   font-size: 20px;
@@ -315,15 +310,11 @@ width: 90%;
   margin-left: .255em;
   vertical-align: .255em;
   content: "";
-  border-top: .3em solid;
-  border-right: .3em solid 
-transparent;
+border-top: .3em solid;
+border-right: .3em solid transparent;
 border-bottom: 0;
-border-left: .3em solid
-  transparent;
+border-left: .3em solid transparent;
 }
-
-
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #357694;
@@ -333,8 +324,23 @@ border-left: .3em solid
   color: #357694;
 }
 
-/* end custom style */
+.servicesNav .dropdown-menu
+{
+min-width: 370px !important;
+}
 
+
+.our-feature-app .feature-img-box
+{
+  padding-right: 0px !important;
+}
+
+.our-feature-app .feature-img-box .feature-offer-box
+{
+  min-height: 340px;
+}
+
+/* end custom style */
 /*** 
 
 ====================================================================
@@ -4417,8 +4423,9 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: relative;
   top:50%;
   transform: translateY(-50%);
+  width: 60%;
 }
-.our-feature-app .feature-img-box .price-feature .icon-box img {width: 22px;}
+/* .our-feature-app .feature-img-box .price-feature .icon-box img {width: 22px;} */
 .our-feature-app .feature-img-box .feature-offer-box .title {
   font-size: 24px;
   color: #4e4e4e;
@@ -4426,7 +4433,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .our-feature-app .feature-img-box .feature-offer-box p {color: #8c929d;}
 
-.our-feature-app .feature-img-box .support-feature {margin-top: 180px;}
+/* .our-feature-app .feature-img-box .support-feature {margin-top: 180px;} */
 
 .our-feature-app .feature-img-box .feature-offer-box .icon-box:before,
 .our-feature-app .feature-img-box .feature-offer-box .icon-box:after {
@@ -9943,7 +9950,20 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 {
 
   #theme-banner-one .main-wrapper {
-    padding: 120px 0 155px;
+    padding: 120px 0 30px;
+}
+
+.agn-about-us {
+  padding: 50px 0 0;
+}
+
+.agn-about-us .img-box::before
+{
+  display: none;
+}
+
+.agn-about-us .img-box {
+  padding-left: 0px;
 }
 
 #theme-banner-one .main-wrapper .main-title {
@@ -9981,6 +10001,15 @@ margin: 0px;
 .static-map {
   width: 100%;
   height: auto;
+}
+
+
+.pt-150 {
+  padding-top: 30px;
+}
+
+.pb-200 {
+  padding-bottom: 0px;
 }
 
 }

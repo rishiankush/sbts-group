@@ -17,27 +17,24 @@ class MainHeader extends Component {
             <div className="theme-main-menu theme-menu-one">
                 <div className="container">
                     <div className="row">
-
-                   
-
                         <div className="col-8 col-md-4">
-                            <div className="logo"><a href="index.html"><img style={{width:'150px'}} src={SbtsLogo} alt="" /></a></div>
+                        <div className="logo"><a href="#"><img style={{width:'150px'}} src={SbtsLogo} alt="" /></a></div>
                         </div>
                         <div className="col-md-8">
                         <Navbar collapseOnSelect bg="" variant="light" expand="lg">
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#home">Services</Nav.Link>
+                        <Nav.Link onClick={()=>this.props.history.push('/')}>Home</Nav.Link>
+                        <Nav.Link onClick={()=>this.props.history.push('/services')}>Services</Nav.Link>
                         <NavDropdown title="Products" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">E-Goverment</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Financial</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Training</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Call Center</NavDropdown.Item>
+                        <NavDropdown.Item href="#">E-Goverment</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Financial</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Training</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Call Center</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#link">Careers</Nav.Link>
-                        <Nav.Link href="#link">Contact Us</Nav.Link>
+                        <Nav.Link href="#">Careers</Nav.Link>
+                        <Nav.Link href="#">Contact Us</Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
                         </Navbar>

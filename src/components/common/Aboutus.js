@@ -26,14 +26,10 @@ class AboutUs extends Component {
                                 <div className="text-wrapper">
                                     <div className="theme-title-one">
                                         <div className="upper-title">About us</div>
-                                        {/* <h2 className="main-title">Leading Digital Agency for Business Solution.</h2> */}
                                     </div>
                                     <p className="aboutP">SBTS Group Inc. is a global technology firm that helps governments understand and coordinate attention to economic organizational, technological innovation, and integrated enterprise.</p>
                                     <p className="aboutP"> SBTS moves the needle beyond the challenges governments face with commercial counterparts by fostering peer to peer knowledge sharing and using current data collection and reporting techniques to spot tendencies and navigate change.  </p>
                                     <p className="aboutP"> With suites of products covering e-government, payment solutions and strategic consulting, STBS brings 30 years of experience helping governments and organizations alike innovate though strategic projects, research, and technological initiatives.  </p>
-                                    {/* <p className="quote">Lorem ipsum dolor sit amet, hendrerit omittantur mel et, est ut vidit animal iracundia luis.</p>
-                                    <div className="author"><span className="name">Rashed Kabir, </span>CEO CreativeGigs</div>
-                                    <img src="images/shape/signature.png" alt="" /> */}
                                 </div>
                             </div>
                             <div className="col-lg-6 order-lg-first">

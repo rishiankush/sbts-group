@@ -40,8 +40,8 @@ class OurBlog extends Component {
                                             <h6 className="name">Rashed Kabir.</h6>
                                             <div className="date">06 Aug 2018</div>
                                         </div>
-                                        <a href="blog-details.html" className="title">Internet advertising what Went wrong.</a>
-                                        <a href="blog-details.html" className="more"><i className='flaticon-next-1'></i></a>
+                                        <a href="#" className="title">Internet advertising what Went wrong.</a>
+                                        <a href="#" className="more"><i className='flaticon-next-1'></i></a>
                                     </div>
                                 </div>
 
@@ -63,8 +63,8 @@ class OurBlog extends Component {
                                                 <h6 className="name">Jannatul Ferdus.</h6>
                                                 <div className="date">07 Aug 2018</div>
                                             </div>
-                                            <a href="blog-details.html" className="title">Internet advertising what Went wrong.</a>
-                                            <a href="blog-details.html" className="more"><i className='flaticon-next-1'></i></a>
+                                            <a href="#" className="title">Internet advertising what Went wrong.</a>
+                                            <a href="#" className="more"><i className='flaticon-next-1'></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -87,8 +87,8 @@ class OurBlog extends Component {
                                                 <h6 className="name">Zubayer hasan.</h6>
                                                 <div className="date">05 Aug 2018</div>
                                             </div>
-                                            <a href="blog-details.html" className="title">Internet advertising what Went wrong.</a>
-                                            <a href="blog-details.html" className="more"><i className='flaticon-next-1'></i></a>
+                                            <a href="#" className="title">Internet advertising what Went wrong.</a>
+                                            <a href="#" className="more"><i className='flaticon-next-1'></i></a>
                                         </div>
                                     </div>
                                 </div>

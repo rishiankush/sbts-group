@@ -33,11 +33,6 @@ class Leadership extends Component {
                                     <a href="#" class="contact-us white-shdw-button">Leadership team <i class="icon flaticon-next"></i></a>
                                 </div>
                             </div>
-                            {/* <div className="col-lg-6 order-lg-first">
-                                <div className="img-box">
-                                    <img src={aboutussection} alt="" className="main-img" />
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                     <a href="#" className="learn-more theme-button-two" data-aos="fade-left">Learn More <i class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>

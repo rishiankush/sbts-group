@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {withRouter} from 'react-router-dom';
 import HeaderMain from './common/headerMain';
-import HeaderBanner from './common/HeaderBanner';
+import HeaderBanner from './services/sheaderBanner';
 import WhatWeDo from './common/WhatWeDo';
 import Aboutus from './common/Aboutus';
 import CompletedProjects from './common/CompletedProjects';
@@ -13,8 +13,9 @@ import Products from './common/Products';
 import MainFooter from './common/MainFooter';
 import Leadership from './common/Leadership';
 import StaticMap from './common/StaticMap';
+import ServicesBox from './common/servicesBox';
 
-class AppIndex extends Component {
+class Services extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,10 +27,10 @@ class AppIndex extends Component {
         <div>
             <HeaderMain />
             <HeaderBanner />
-            <Aboutus />
-            <Products />
-            <WhatWeDo showReadMoreBtn={true} />
-            {/* <CompletedProjects /> */}
+            {/* <Aboutus />
+            <Products /> */}
+            <WhatWeDo showReadMoreBtn={false} />
+            <ServicesBox />
             <Leadership />
             <StaticMap />
             <DoProjects />
@@ -40,4 +41,4 @@ class AppIndex extends Component {
   }
 }
 
-export default withRouter(AppIndex);
+export default withRouter(Services);

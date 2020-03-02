@@ -20,7 +20,7 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-3 col-sm-6 col-12 about-widget">
-                                    <a href="index.html" className="Footerlogo"><img src={SbtsLogo} alt="" /></a>
+                                    <a href="#" className="Footerlogo"><img src={SbtsLogo} alt="" /></a>
                                     <a href="#" className="email">info@sbts.com</a>
                                     <a href="#" className="phone">1234567890</a>
                                 </div>
@@ -37,7 +37,6 @@ class Footer extends Component {
                                     <h5 className="title">Quick Links</h5>
                                     <ul>
                                         <li><a href="about-us-standard.html">Home</a></li>
-                                        {/* <li><a href="project-standard.html">About Us</a></li> */}
                                         <li><a href="team-standard.html">Services</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="blog-default.html">Media Kit</a></li>
@@ -67,15 +66,12 @@ class Footer extends Component {
                                 <p>&copy; 2019 copyright all right reserved</p>
                                 <ul>
                                     <li><a href="#">Privace Policy.</a></li>
-                                    {/* <li><a href="#">Faq.</a></li>
-                                    <li><a href="#">Terms.</a></li> */}
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
         );
-
     }
 }
 
