@@ -49,9 +49,6 @@ class Services extends Component {
             </div>
           </div>
         </div>
-        <Leadership />
-        <StaticMap />
-        <DoProjects />
         <MainFooter />
       </div>
     );

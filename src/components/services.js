@@ -31,8 +31,6 @@ class Services extends Component {
             <Products /> */}
             <WhatWeDo showReadMoreBtn={false} />
             <ServicesBox />
-            <Leadership />
-            <StaticMap />
             <DoProjects />
             <MainFooter />
         </div>
