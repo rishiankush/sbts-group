@@ -14,7 +14,7 @@ class DoProject extends Component {
                 <div className="agn-contact-banner">
                     <div className="container">
                         <h2 className="title">Need help on your next project? <br />Contact us.</h2>
-                        <a href="#" className="contact-button line-button-one">Contact Us</a>
+                        <a onClick={()=>this.props.history.push('/contactus')} className="contact-button line-button-one">Contact Us</a>
                     </div>
                 </div>
         );

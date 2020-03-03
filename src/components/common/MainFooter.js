@@ -36,10 +36,10 @@ class Footer extends Component {
                                 <div className="col-lg-3 col-sm-6 col-12 footer-list">
                                     <h5 className="title">Quick Links</h5>
                                     <ul>
-                                        <li><a href="about-us-standard.html">Home</a></li>
-                                        <li><a href="team-standard.html">Services</a></li>
-                                        <li><a href="#">Careers</a></li>
-                                        <li><a href="blog-default.html">Media Kit</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/')}>Home</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/services')}>Services</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/careers')}>Careers</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/media')}>Media Kit</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">

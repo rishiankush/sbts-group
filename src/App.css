@@ -1,129 +1,6 @@
 
 /* CSS Document */
 
-/* 
-    Created on   : 26/02/2019.
-    Last Update  : 07/04/2019.
-    Theme Name   : Rogan - Creative Multi-Purpose HTML Template.
-    Version      : 1.1.
-    Author       : Creativegigs.
-    Developed by : Jubayer al hasan. (me@heloshape.com)
-   
-*/
-
-
-/* ------------------------------------------ */
-/*             TABLE OF CONTENTS
-/* ------------------------------------------ */
-/*   01 - Loading Transition  */
-/*   02 - Global style  */
-/*   03 - Prefix  */
-/*   04 - Theme button */
-/*   05 - Transition */
-/*   06 - Theme Color File  */
-/*   07 - Theme Title  */
-/*   08 - Theme Pagination  */
-/*   09 - Theme Main Menu  */
-    /*SASS MENU*/
-    /*Theme Main Menu Two*/
-    /*Theme Main Menu Three*/
-    /*APP Menu*/
-    /*Sticky Menu*/
-
-/*   10 - Theme Main Banner One  */
-/*   11 - Theme Main Banner Two  */
-/*   12 - Theme Main Banner Three  */
-/*   13 - Theme Main Banner Four  */
-/*   14 - Theme Main Banne Five   */
-/*   15 - What We Do/Agency  */
-/*   16 - What We Do/SEO  */
-/*   17 - About Us  */
-/*   18 - Theme Counter  */
-/*   19 - Our Gallery   */
-/*   20 - Our Pricing/ Agency */
-/*   21 - Pricing / APP */
-/*   22 - Our Pricing/ SEO */
-/*   23 - Testimonial  */
-/*   24 - Testimonial/Portfolio  */
-/*   25 - Testimonial/SASS  */
-/*   26 - Testimonial/Apps */
-/*   27 - Home Blog  */
-/*   28 - Contact Banner/Agency   */
-/*   29 - Contact Banner/SEO   */
-/*   30 - Contact Banner/SASS   */
-/*   31 - Theme Footer One   */
-/*   32 - Our Goal   */
-/*   33 - Our Service/SEO   */
-/*   34 - Our Service/SASS   */
-/*   35 - Our Service/APP   */
-/*   36 - Work Progress/SEO   */
-/*   37 - Home Portfolio   */
-/*   38 - About Me / Portfolio   */
-/*   39 - My SKill Section/Portfolio   */
-/*   40 - Our Service/Portfolio   */
-/*   41 - Our Project/Portfolio   */
-/*   42 - Footer/Portfolio   */
-/*   43 - Trsuted Partners/ SASS   */
-/*   44 - Our Feature/SASS   */
-/*   45 - Our Feature/APP   */
-/*   46 - Our Pricing/SASS   */
-/*   47 - FAQ Section/SASS   */
-/*   48 - Why Choose Us/APP   */
-/*   49 - Newsletter Section   */
-/*   50 - Theme E-Commerce Menu   */
-/*   51 - E-Commerce Home Page   */
-/*   52 - Sidebar Menu   */
-/*   53 - E-Commerce Hero Section   */
-/*   54 - Product Filter Area/Sidebar   */
-/*   55 - Product Showcase   */
-/*   56 - Cart Page   */
-/*   57 - CheckOut Page  */
-/*   58 - Theme Solid Inner Banner  */
-/*   59 - Shop Details   */
-/*   60 - FAQ Page   */
-/*   61 - Our Team Standard   */
-/*   62 - Our Team Buisness   */
-/*   63 - Our Team Classic   */
-/*   64 - About Us Standard   */
-/*   65 - Theme Counter Two   */
-/*   66 - Video Action Banner One   */
-/*   67 - Video Action Banner Two   */
-/*   68 - Our Service Minimal   */
-/*   69 - Our Service Standard   */
-/*   70 - Our Service Creative   */
-/*   71 - Our Service Modren   */
-/*   72 - Our Project   */
-/*   73 - Gallery Sidebar   */
-/*   74 - Project Details   */
-/*   75 - Our Blog   */
-/*   76 - Blog Details   */
-/*   77 - Contact us   */
-/*   78 - Error Page   */
-/*   79 - Creative Project   */
-/*   80 - Sign Up   */
-/*   81 - Shortcode style   */
-      /*Accordion*/
-      /*Breadcrumbs*/
-      /*Counter*/
-      /*List Item*/
-      /*Footer*/
-      /*Modal*/
-      /*Header*/
-/*   82 - Architecture Home   */
-    /*Architecture Hero area*/
-      /*MODAL*/
-      /*About ARCH*/
-      /*ARCH Project Gallery*/
-      /*ARCH Service*/
-      /*ARCH Testimonial*/
-      /*ARCH Blog*/
-      /*ARCH Contact*/
-      /*ARCH Footer*/
-
-
-
-
-
 /**
 * Importing necessary  Styles.
 **/
@@ -238,7 +115,6 @@ a{
 
 .leadership.agn-about-us
 {
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#33617d+0,161615+100 */
 background: #33617d; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #33617d 0%, #161615 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg,  #33617d 0%,#161615 100%); /* Chrome10-25,Safari5.1-6 */
@@ -338,6 +214,35 @@ min-width: 370px !important;
 .our-feature-app .feature-img-box .feature-offer-box
 {
   min-height: 340px;
+}
+
+.dropdown-item.active, .dropdown-item:active
+{
+  background: #fff !important;
+}
+
+.careerAbout
+{
+font-size: 20px;
+line-height: 35px;
+margin: 0 0 20px 0;
+}
+
+.contactUs {
+  margin: 0 0 45px 0;
+}
+
+.mappin {
+  width: 25px;
+  float: left;
+}
+
+.contactTitle.col-md-12 {
+  padding: 35px 0;
+}
+
+.contactMap {
+  margin: 0 0 20px 0;
 }
 
 /* end custom style */

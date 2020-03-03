@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { withRouter } from 'react-router-dom';
-import bannershape1 from '../../assets/images/shape/bannerShape1.png';
+import CareersIcons from '../../assets/images/careers/careersIcons.png';
 
-class SHeaderBanner extends Component {
+class cHeaderBanner extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -14,7 +14,7 @@ class SHeaderBanner extends Component {
         return (
 			<div id="theme-banner-one">
 				<div className="illustration wow zoomIn animated" data-wow-delay="1s" data-wow-duration="2s">
-				<img src={bannershape1} className="bannerHaderImg" alt="" />
+				<img src={CareersIcons} className="bannerHaderImg" alt="" />
 				</div>
 				<img src={require("../../assets/images/shape/oval-1.svg")} alt="" className="oval-one" />
 				<img src={require("../../assets/images/shape/shape-1.svg")} alt="" className="shape-three" />
@@ -28,7 +28,7 @@ class SHeaderBanner extends Component {
 				<img src={require("../../assets/images/shape/shape-62.svg")} alt="" className="shape-eleven" />
 				<div className="container">
 					<div className="main-wrapper">
-						<h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">Enterprise Solutions <br />for a better <br />tomorrow</h1>
+						<h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">College <br />Opportunities</h1>
 						<ul className="button-group lightgallery">
 						<li><a data-fancybox href="#" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">Learn about our Company. <i class="flaticon-play-button icon-right"></i></a></li>
 						</ul>
@@ -39,4 +39,4 @@ class SHeaderBanner extends Component {
     }
 }
 
-export default withRouter(SHeaderBanner);
+export default withRouter(cHeaderBanner);

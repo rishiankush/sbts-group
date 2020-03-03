@@ -33,8 +33,8 @@ class MainHeader extends Component {
                         <NavDropdown.Item href="#">Training</NavDropdown.Item>
                         <NavDropdown.Item href="#">Call Center</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#">Careers</Nav.Link>
-                        <Nav.Link href="#">Contact Us</Nav.Link>
+                        <Nav.Link onClick={()=>this.props.history.push('/careers')}>Careers</Nav.Link>
+                        <Nav.Link onClick={()=>this.props.history.push('/contactus')}>Contact Us</Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
                         </Navbar>
