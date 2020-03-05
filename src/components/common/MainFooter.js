@@ -45,9 +45,9 @@ class Footer extends Component {
                                 <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
                                     <h5 className="title">Our Offices</h5>
                                     <div className="officelocations">
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span>Washington, DC, USA</span></p>
                                         <p><div className="mappin"><img src={LocationMap} /></div><span>Freetown, Sierra Leone</span></p>
                                         <p><div className="mappin"><img src={LocationMap} /></div><span> Pune, India </span></p>
-                                        <p><div className="mappin"><img src={LocationMap} /></div><span>Washington, DC, USA</span></p>
                                     </div>
 
                                     <ul className="FooterIcons">
@@ -63,7 +63,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="bottom-footer">
                             <div className="clearfix">
-                                <p>&copy; 2019 copyright all right reserved</p>
+                                <p>&copy; 2020 copyright all right reserved</p>
                                 <ul>
                                     <li><a href="#">Privace Policy.</a></li>
                                 </ul>
