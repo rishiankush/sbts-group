@@ -44,21 +44,18 @@ class Openings extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={internationalconsulting} alt="" /></div>
                                 <h4 class="title">Marketing</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={Projectmanagement} alt="" /></div>
                                 <h4 class="title">Project Management</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                         <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Informationtechnology} alt="" /></div>
                                 <h4 class="title">Information Technology</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
@@ -73,28 +70,24 @@ class Openings extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={Telecommunications} alt="" /></div>
                                 <h4 class="title">System Analysis</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-3">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={Webdevelopment} alt="" /></div>
                                 <h4 class="title">Web Development</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-3">
                         <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Webdesign} alt="" /></div>
                                 <h4 class="title">Web Design</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-3">
                         <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={Programming} alt="" /></div>
                                 <h4 class="title">Programming</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
@@ -104,7 +97,6 @@ class Openings extends Component {
                             <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Sales} alt="" /></div>
                                 <h4 class="title">Sales</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
 
