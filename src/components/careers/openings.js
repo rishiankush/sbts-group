@@ -112,7 +112,7 @@ class Openings extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={SubmitCv} alt="" /></div>
                                 <h4 class="title">Please fill out the form below to submit your resume</h4>
-                                <a href="#"> http://www.sonako.com/resume.php </a>
+                                <a href="http://www.sonako.com/resume.php" target="_blank"> http://www.sonako.com/resume.php </a>
                             </div>
                         </div>
                       

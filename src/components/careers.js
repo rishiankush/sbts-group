@@ -16,6 +16,7 @@ import StaticMap from './common/StaticMap';
 import ServicesBox from './common/servicesBox';
 import CHeaderBanners from './careers/cHeaderBanners';
 import Openings from './careers/openings';
+import Professionals from './careers/professionals';
 
 
 class Services extends Component {
@@ -31,6 +32,7 @@ class Services extends Component {
             <HeaderMain />
             <CHeaderBanners />
             <Openings />
+            <Professionals />
             <DoProjects />
             <MainFooter />
         </div>
