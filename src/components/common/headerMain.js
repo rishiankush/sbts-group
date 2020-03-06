@@ -28,10 +28,10 @@ class MainHeader extends Component {
                         <Nav.Link onClick={()=>this.props.history.push('/')}>Home</Nav.Link>
                         <Nav.Link onClick={()=>this.props.history.push('/services')}>Services</Nav.Link>
                         <NavDropdown title="Products" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#">E-Goverment</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Financial</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Training</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Call Center</NavDropdown.Item>
+                        <NavDropdown.Item onClick={()=>this.props.history.push('/eGoverment')}>E-Goverment</NavDropdown.Item>
+                        <NavDropdown.Item onClick={()=>this.props.history.push('/financial')}>Financial</NavDropdown.Item>
+                        <NavDropdown.Item onClick={()=>this.props.history.push('/training')}>Training</NavDropdown.Item>
+                        <NavDropdown.Item onClick={()=>this.props.history.push('/callcenter')}>Call Center</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link onClick={()=>this.props.history.push('/careers')}>Careers</Nav.Link>
                         <Nav.Link onClick={()=>this.props.history.push('/contactus')}>Contact Us</Nav.Link>
