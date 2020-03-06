@@ -17,6 +17,14 @@ class Address extends Component {
                 <div className="row">
                     <div className="col-md-12">
                         <div class="officelocations">
+
+                        <p> 
+                            <div class="mappin">
+                             <img src={LocationMap} />
+                             </div>
+                             <span>Washington, DC, USA</span>
+                             </p>
+
                             <p> 
                             <div class="mappin">
                              <img src={LocationMap} />
@@ -32,12 +40,7 @@ class Address extends Component {
                              </p>
 
                              
-                             <p> 
-                            <div class="mappin">
-                             <img src={LocationMap} />
-                             </div>
-                             <span>Washington, DC, USA</span>
-                             </p>
+                           
 
                         </div>
                     </div>

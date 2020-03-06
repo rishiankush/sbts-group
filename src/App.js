@@ -8,7 +8,6 @@ import careers from './components/careers';
 import media from './components/media';
 import contactus from './components/contactus';
 
-
 function App() {
   return (
     <Router>

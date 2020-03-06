@@ -43,21 +43,18 @@ class Servicesbox extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={internationalconsulting} alt="" /></div>
                                 <h4 class="title">International Consulting</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={ArtificialIntelligence} alt="" /></div>
                                 <h4 class="title">Artificial Intelligence / Machine Learning</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                         <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Cybersecurity} alt="" /></div>
                                 <h4 class="title">Cyber Security</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
@@ -67,21 +64,18 @@ class Servicesbox extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={Telecommunications} alt="" /></div>
                                 <h4 class="title">Telecommunications</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={ITConsulting} alt="" /></div>
                                 <h4 class="title">IT Consulting</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                         <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Mobileapplicationdevelopment} alt="" /></div>
                                 <h4 class="title">Mobile Application Development</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
@@ -91,21 +85,18 @@ class Servicesbox extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={DIntegration} alt="" /></div>
                                 <h4 class="title">Database Integration</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={SDevelopment} alt="" /></div>
                                 <h4 class="title">Software Development</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                         <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={HDevelopment} alt="" /></div>
                                 <h4 class="title">Hardware Design and Development </h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
@@ -115,21 +106,18 @@ class Servicesbox extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={Networking} alt="" /></div>
                                 <h4 class="title">Networking</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={VPNWANIntegration} alt="" /></div>
                                 <h4 class="title">VPN/WAN Integration</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                         <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Enterpriseweb} alt="" /></div>
                                 <h4 class="title">Enterprise Web</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
@@ -138,14 +126,12 @@ class Servicesbox extends Component {
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={Helpdeskintegration} alt="" /></div>
                                 <h4 class="title">Help Desk Integration</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-6">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={Supporttraining} alt="" /></div>
                                 <h4 class="title">Support/ Training Management</h4>
-                                <p>Lorem ipsum dolor si met, an dusino si  sinconstituto mir set gil amilu.</p>
                             </div>
                         </div>
                     </div>
