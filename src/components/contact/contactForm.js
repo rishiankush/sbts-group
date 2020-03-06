@@ -7,7 +7,57 @@ class ContactUsform extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            name:'',
+            email:'',
+            phone:'',
+            message:'',
         };
+    }
+
+    onChange(e) {
+        if (e.target.id === 'name') {
+            // console.log('inside name ****** ',e.target.value);
+            this.setState({ name: e.target.value });
+        } else if (e.target.id === 'phone') {
+            // console.log('inside phone ****** ',e.target.value);
+            this.setState({ phone: e.target.value });
+        } else if (e.target.id === 'email') {
+            // console.log('inside email ****** ',e.target.value);
+            this.setState({ email: e.target.value });
+        } else if (e.target.id === 'message') {
+            // console.log('inside message ****** ',e.target.value);
+            this.setState({ message: e.target.value});
+            // console.log(e.target.value);
+        }
+    }
+
+    submitContactForm(e){
+        e.preventDefault();
+        let reqObj = {
+            "name": this.state.name,
+            "email": this.state.email,
+            "phone": this.state.phone,
+            "message": this.state.message
+        }
+
+        console.log(reqObj)
+    
+        fetch('http://127.0.0.1:7288/users/contact',{
+            method: "POST",
+            headers: {
+                "Access-Control-Allow-Origin": "*",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(reqObj),
+        })
+        .then(response =>  response.json())
+        .then(resData => {
+            console.log(resData)
+        })
+        .catch((error)=>{
+            console.log('error ******* ',error)
+        })
+        
     }
 
     render() {
@@ -15,7 +65,7 @@ class ContactUsform extends Component {
             <div className="AddressComp">
                 <div className="row">
                     <div className="col-md-12">
-                        <form action="mail.php" method="post">
+                        <form onSubmit={(e)=>this.submitContactForm(e)}>
                             <div className="card rounded-0">
                                 <div className="card-body p-3">
                                     <div className="form-group">
@@ -23,7 +73,7 @@ class ContactUsform extends Component {
                                             <div className="input-group-prepend">
                                                 <div className="input-group-text"><i className="fa fa-user text-info"></i></div>
                                             </div>
-                                            <input type="text" className="form-control" id="nombre" name="nombre" placeholder="Name" required />
+                                            <input type="text" onChange={(e)=>this.onChange(e)} className="form-control" id="name" name="name" placeholder="Name" required />
                                         </div>
                                     </div>
                                     <div className="form-group">
@@ -31,7 +81,7 @@ class ContactUsform extends Component {
                                             <div className="input-group-prepend">
                                                 <div className="input-group-text"><i className="fa fa-phone text-info"></i></div>
                                             </div>
-                                            <input type="tel" className="form-control" id="Phone" name="Phone" placeholder="Phone" required />
+                                            <input type="tel" onChange={(e)=>this.onChange(e)} className="form-control" id="phone" name="phone" placeholder="Phone" required />
                                         </div>
                                     </div>
                                     <div className="form-group">
@@ -39,7 +89,7 @@ class ContactUsform extends Component {
                                             <div className="input-group-prepend">
                                                 <div className="input-group-text"><i className="fa fa-envelope text-info"></i></div>
                                             </div>
-                                            <input type="email" className="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required />
+                                            <input type="email" onChange={(e)=>this.onChange(e)} className="form-control" id="email" name="email" placeholder="ejemplo@gmail.com" required />
                                         </div>
                                     </div>
 
@@ -48,7 +98,7 @@ class ContactUsform extends Component {
                                             <div className="input-group-prepend">
                                                 <div className="input-group-text"><i className="fa fa-comment text-info"></i></div>
                                             </div>
-                                            <textarea className="form-control" placeholder="Message" required></textarea>
+                                            <textarea name="message" onChange={(e)=>this.onChange(e)} id="message" className="form-control" placeholder="Message" required></textarea>
                                         </div>
                                     </div>
 
