@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { withRouter } from 'react-router-dom';
 import LocationMap from '../../assets/images/marker/pin.png';
-
+import {
+    StaticGoogleMap,
+    Marker
+} from 'react-static-google-map';
 
 class Address extends Component {
     constructor(props) {

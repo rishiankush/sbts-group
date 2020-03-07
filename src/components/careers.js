@@ -31,7 +31,7 @@ class Services extends Component {
         <div>
             <HeaderMain />
             <CHeaderBanners />
-            <Openings />
+            {/* <Openings /> */}
             <Professionals />
             <DoProjects />
             <MainFooter />
