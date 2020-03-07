@@ -27,7 +27,7 @@ class Products extends Component {
                         <div class="col-lg-3 col-md-6">
     
                             <div class="productsbox single-block">
-                            <a onClick={()=>this.props.history.push('/')}>
+                            <a onClick={()=>this.props.history.push('/eGoverment')}>
                                 <div class="icon">
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={EGovermentSuite} alt="" class="shape" />
@@ -46,7 +46,7 @@ class Products extends Component {
                         <div class="col-lg-3 col-md-6">
                          
                             <div class="productsbox single-block">
-                            <a onClick={()=>this.props.history.push('/')}>
+                            <a onClick={()=>this.props.history.push('/financial')}>
                                 <div class="icon">
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={FinancialSuite} alt="" class="shape" />
@@ -64,7 +64,7 @@ class Products extends Component {
                         <div class="col-lg-3 co-12 d-md-none d-lg-block">
                         
                             <div class="productsbox single-block">
-                            <a onClick={()=>this.props.history.push('/')}>
+                            <a onClick={()=>this.props.history.push('/training')}>
                                 <div class="icon">
                                     <img src={require("../../assets/images/shape/shape-2.svg")} alt="" class="bg" />
                                     <img src={TrainingSuite} alt="" class="shape" />

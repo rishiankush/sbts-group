@@ -27,10 +27,10 @@ class Footer extends Component {
                                 <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list">
                                     <h5 className="title">Products</h5>
                                     <ul>
-                                        <li><a href="#">E-Goverment</a></li>
-                                        <li><a href="#">Financial</a></li>
-                                        <li><a href="#">Training</a></li>
-                                        <li><a href="#">Call Center</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/eGoverment')}>E-Goverment</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/financial')}>Financial</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/training')}>Training</a></li>
+                                        <li><a onClick={()=>this.props.history.push('/')}>Call Center</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-3 col-sm-6 col-12 footer-list">
