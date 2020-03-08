@@ -42,7 +42,7 @@ class ContactUsform extends Component {
 
         console.log(reqObj)
     
-        fetch('https://sbts-backend.herokuapp.com/users/contact',{
+        fetch('https://sbts-group.herokuapp.com/users/contact',{
             method: "POST",
             headers: {
                 "Access-Control-Allow-Origin": "*",
