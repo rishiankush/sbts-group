@@ -34,7 +34,7 @@ class ContactUsform extends Component {
     submitContactForm(e){
         e.preventDefault();
         let reqObj = {
-            "name": this.state.name,
+            "first_name": this.state.name,
             "email": this.state.email,
             "phone": this.state.phone,
             "message": this.state.message
@@ -52,7 +52,15 @@ class ContactUsform extends Component {
         })
         .then(response =>  response.json())
         .then(resData => {
-            console.log(resData)
+            if(resData.statusCode == 200){
+                alert(resData.message);
+            }
+            this.setState({
+                name:'',
+                email:'',
+                phone:'',
+                message:'',
+            });
         })
         .catch((error)=>{
             console.log('error ******* ',error)
