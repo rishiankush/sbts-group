@@ -254,6 +254,11 @@ margin: 0 0 20px 0;
   font-size: 25px;
 }
 
+.service-boxes {
+  flex: 0 0 33.333333%;
+  max-width: 20.333333%;
+}
+
 /* end custom style */
 /*** 
 
@@ -4341,7 +4346,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 /* .our-feature-app .feature-img-box .price-feature .icon-box img {width: 22px;} */
 .our-feature-app .feature-img-box .feature-offer-box .title {
-  font-size: 24px;
+  font-size: 18px;
   color: #4e4e4e;
   padding: 20px 0 30px;
 }
