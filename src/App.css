@@ -256,7 +256,15 @@ margin: 0 0 20px 0;
 
 .service-boxes {
   flex: 0 0 33.333333%;
-  max-width: 20.333333%;
+  max-width: 19.333333%;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .service-box-row {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 /* end custom style */
@@ -4321,17 +4329,20 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .our-feature-app .single-feature-box:nth-child(3) .text-wrapper {margin-top: 60px;}
 .our-feature-app .feature-img-box {position: relative;padding-right: 90px;}
 .our-feature-app .feature-img-box .feature-offer-box {
-  padding: 45px 15px 30px 35px;
+  padding: 25px;
   margin-bottom: 45px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 25px 50px 0px rgba(78, 81, 144, 0.07);
+  min-height: 230px;
+  max-height: 230px;
 }
 .our-feature-app .feature-img-box .feature-offer-box .icon-box {
   position: relative;
-  width: 85px;
-  height: 85px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
+  margin-left: 35px;
 }
 .our-feature-app .feature-img-box .support-feature .icon-box {background: linear-gradient( 120deg, rgb(249,154,120) 0%, rgb(255,83,140) 100%);}
 .our-feature-app .feature-img-box .price-feature .icon-box {background: linear-gradient( 120deg, rgb(108,71,218) 0%, rgb(224,129,255) 100%);}
@@ -4346,9 +4357,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 /* .our-feature-app .feature-img-box .price-feature .icon-box img {width: 22px;} */
 .our-feature-app .feature-img-box .feature-offer-box .title {
-  font-size: 18px;
+  font-size: 16px;
   color: #4e4e4e;
-  padding: 20px 0 30px;
+  padding-top: 25px;
+  text-align: center;
 }
 .our-feature-app .feature-img-box .feature-offer-box p {color: #8c929d;}
 

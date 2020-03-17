@@ -20,7 +20,7 @@ class Finacial extends Component {
     return (
         <div>
             <HeaderMain />
-            <ProductBanner bannerText={('Finacial')} />
+            <ProductBanner bannerText={('Financial')} />
             <section id="EGovernment">
               <div className="container">
                 <div className="row">

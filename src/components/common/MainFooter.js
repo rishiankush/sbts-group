@@ -20,7 +20,7 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-3 col-sm-6 col-12 about-widget">
-                                    <a href="#" className="Footerlogo"><img src={SbtsLogo} alt="" /></a>
+                                    <a onClick={()=>this.props.history.push('/')} className="Footerlogo"><img src={SbtsLogo} alt="" /></a>
                                     <a href="#" className="email">info@sbts.com</a>
                                     <a href="#" className="phone">1234567890</a>
                                 </div>
@@ -48,6 +48,8 @@ class Footer extends Component {
                                         <p><div className="mappin"><img src={LocationMap} /></div><span>Washington, DC, USA</span></p>
                                         <p><div className="mappin"><img src={LocationMap} /></div><span>Freetown, Sierra Leone</span></p>
                                         <p><div className="mappin"><img src={LocationMap} /></div><span> Pune, India </span></p>
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span> Monrovia, Liberia </span></p>
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span> Kinsasha, Congo </span></p>
                                     </div>
 
                                     <ul className="FooterIcons">

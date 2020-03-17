@@ -38,7 +38,7 @@ class Servicesbox extends Component {
                     <img src={require("../../assets/images/shape/shape-47.svg")} alt="" class="shape-three" />
                     <img src={require("../../assets/images/shape/shape-48.svg")} alt="" class="shape-four" />
                     <img src={require("../../assets/images/shape/shape-49.svg")} alt="" class="shape-five" />
-                    <div class="row">
+                    <div class="row service-box-row">
                         <div class="col-md-2 service-boxes">
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={internationalconsulting} alt="" /></div>
@@ -69,15 +69,16 @@ class Servicesbox extends Component {
                                 <h4 class="title">IT Consulting</h4>
                             </div>
                         </div>
+                        
+                    </div>
+
+                    <div class="row">
                         <div className="col-md-2 service-boxes">
                             <div class="feature-offer-box access-feature js-tilt">
                                 <div class="icon-box"><img src={Mobileapplicationdevelopment} alt="" /></div>
                                 <h4 class="title">Mobile Application Development</h4>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="row">
                         <div class="col-md-2 service-boxes">
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={DIntegration} alt="" /></div>
@@ -102,6 +103,9 @@ class Servicesbox extends Component {
                                 <h4 class="title">Networking</h4>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="row">
                         <div class="col-md-2 service-boxes">
                             <div class="feature-offer-box price-feature js-tilt">
                                 <div class="icon-box"><img src={VPNWANIntegration} alt="" /></div>
@@ -114,9 +118,6 @@ class Servicesbox extends Component {
                                 <h4 class="title">Enterprise Web</h4>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="row">
                         <div class="col-md-2 service-boxes">
                             <div class="feature-offer-box support-feature js-tilt">
                                 <div class="icon-box"><img src={Helpdeskintegration} alt="" /></div>

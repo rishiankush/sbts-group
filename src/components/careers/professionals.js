@@ -104,9 +104,8 @@ class Professional extends Component {
                 <div className="container"> 
                 <div className="row">
                     <div className="col-md-12">
-                        <h2> Professionals </h2>
-                        <p> There are currently no positions available.
-Please feel free to submit your resume and when a position does become available we will look at the collected resumes. </p>
+                        {/* <h2> Professionals </h2> */}
+                        <p> No current openings? Submit your resume for general consideration. </p>
                     </div>
                 </div>
                 <div className="row">
@@ -123,23 +122,8 @@ Please feel free to submit your resume and when a position does become available
                                             <input onChange={(e)=>this.onChange(e)} type="text" className="form-control" id="fname" name="fname" placeholder="First Name" required />
                                         </div>
                                     </div>
-                                    <div className="col-md-6 form-group">
-                                        <div className="input-group mb-2">
-                                            <div className="input-group-prepend">
-                                                <div className="input-group-text"><i className="fa fa-user text-info"></i></div>
-                                            </div>
-                                            <input onChange={(e)=>this.onChange(e)} type="text" className="form-control" id="lname" name="lname" placeholder="Last Name" required />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 form-group">
-                                        <div className="input-group mb-2">
-                                            <div className="input-group-prepend">
-                                                <div className="input-group-text"><i className="fa fa-building text-info"></i></div>
-                                            </div>
-                                            <input onChange={(e)=>this.onChange(e)} type="file" className="form-control" id="cv" name="cv" placeholder="Upload Resume" required />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 form-group">
+                                    
+                                    {/* <div className="col-md-6 form-group">
                                         <div className="input-group mb-2">
                                             <div className="input-group-prepend">
                                                 <div className="input-group-text"><i className="fa fa-map-marker text-info"></i></div>
@@ -178,13 +162,13 @@ Please feel free to submit your resume and when a position does become available
                                             </div>
                                             <input onChange={(e)=>this.onChange(e)} type="text" className="form-control" id="country" name="country" placeholder="Country" required />
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="col-md-6 form-group">
                                         <div className="input-group mb-2">
                                             <div className="input-group-prepend">
-                                                <div className="input-group-text"><i className="fa fa-phone text-info"></i></div>
+                                                <div className="input-group-text"><i className="fa fa-user text-info"></i></div>
                                             </div>
-                                            <input onChange={(e)=>this.onChange(e)} type="tel" className="form-control" id="phone" name="phone" placeholder="Phone" required />
+                                            <input onChange={(e)=>this.onChange(e)} type="text" className="form-control" id="lname" name="lname" placeholder="Last Name" required />
                                         </div>
                                     </div>
                                     <div className="col-md-6 form-group">
@@ -195,18 +179,36 @@ Please feel free to submit your resume and when a position does become available
                                             <input onChange={(e)=>this.onChange(e)} type="email" className="form-control" id="email" name="email" placeholder="ejemplo@gmail.com" required />
                                         </div>
                                     </div>
-
+                                    
+                                    <div className="col-md-6 form-group">
+                                        <div className="input-group mb-2">
+                                            <div className="input-group-prepend">
+                                                <div className="input-group-text"><i className="fa fa-phone text-info"></i></div>
+                                            </div>
+                                            <input onChange={(e)=>this.onChange(e)} type="tel" className="form-control" id="phone" name="phone" placeholder="Phone" required />
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="col-md-6 form-group">
+                                        <div className="input-group mb-2">
+                                            <div className="input-group-prepend">
+                                                <div className="input-group-text"><i className="fa fa-building text-info"></i></div>
+                                            </div>
+                                            <input onChange={(e)=>this.onChange(e)} type="file" className="form-control" id="cv" name="cv" placeholder="Upload Resume" required />
+                                        </div>
+                                    </div>
+                                    
                                     <div className="col-md-12 form-group">
                                         <div className="input-group mb-2">
                                             <div className="input-group-prepend">
                                                 <div className="input-group-text"><i className="fa fa-comment text-info"></i></div>
                                             </div>
-                                            <textarea className="form-control" id="details" name="details" placeholder="Details" required></textarea>
+                                            <textarea className="form-control" id="details" name="details" placeholder="Message to Hiring Manager" required></textarea>
                                         </div>
                                     </div>
 
                                     <div className="col-md-12 text-center">
-                                        <input type="submit" value="Send Message" className="btn btn-info rounded-0 py-2" />
+                                        <input type="submit" value="Submit" className="btn btn-info rounded-0 py-2" />
                                     </div>
                                 </div>
                             </div>
