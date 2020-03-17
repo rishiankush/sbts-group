@@ -30,7 +30,7 @@ class SHeaderBanner extends Component {
 					<div className="main-wrapper">
 						<h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">Enterprise Solutions <br />for a better <br />tomorrow</h1>
 						<ul className="button-group lightgallery">
-						<li><a data-fancybox href="#" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">Learn about our Company. <i class="flaticon-play-button icon-right"></i></a></li>
+						{/* <li><a data-fancybox href="#" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">Learn about our Company. <i class="flaticon-play-button icon-right"></i></a></li> */}
 						</ul>
 					</div>
 				</div>
