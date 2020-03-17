@@ -197,6 +197,19 @@ class Professional extends Component {
                                             <input onChange={(e)=>this.onChange(e)} type="file" className="form-control" id="cv" name="cv" placeholder="Upload Resume" required />
                                         </div>
                                     </div>
+
+                                    <div className="col-md-6 form-group">
+                                        <div className="input-group mb-2">
+                                            <div className="input-group-prepend">
+                                                <div className="input-group-text"><i className="fa fa-building text-info"></i></div>
+                                            </div>
+                                            <select class="browser-default custom-select" className="form-control">
+                                                <option selected>Preferred Contact</option>
+                                                <option value="1">Email</option>
+                                                <option value="2">Phone</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                     
                                     <div className="col-md-12 form-group">
                                         <div className="input-group mb-2">

@@ -67,7 +67,7 @@ class Footer extends Component {
                             <div className="clearfix">
                                 <p>&copy; 2020 copyright all right reserved</p>
                                 <ul>
-                                    <li><a href="#">Privace Policy.</a></li>
+                                    <li><a onClick={()=>this.props.history.push('/privacy')}>Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>

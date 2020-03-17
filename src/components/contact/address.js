@@ -42,6 +42,20 @@ class Address extends Component {
                              <span> Pune, India </span>
                              </p>
 
+                             <p> 
+                            <div class="mappin">
+                             <img src={LocationMap} />
+                             </div>
+                             <span> Monrovia, Liberia  </span>
+                             </p>
+
+                             <p> 
+                            <div class="mappin">
+                             <img src={LocationMap} />
+                             </div>
+                             <span> Kinsasha, Congo </span>
+                             </p>
+
                              
                            
 

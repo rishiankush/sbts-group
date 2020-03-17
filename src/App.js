@@ -11,6 +11,7 @@ import eGoverment from './components/products/eGoverment';
 import financial from './components/products/financial';
 import training from './components/products/training';
 import callCenter from './components/products/callCenter';
+import privacyPolicies from './components/privacyPolicies';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/financial" component={financial} />
         <Route path="/training" component={training} />
         <Route path="/callcenter" component={callCenter} />
+        <Route path="/privacy" component={privacyPolicies} />
      </Switch>
     </div>
   </Router>
