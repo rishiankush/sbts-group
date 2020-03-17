@@ -213,7 +213,7 @@ min-width: 370px !important;
 
 .our-feature-app .feature-img-box .feature-offer-box
 {
-  min-height: 270px;
+  min-height: 200px;
 }
 
 .dropdown-item.active, .dropdown-item:active
@@ -4316,8 +4316,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .our-feature-app .single-feature-box:nth-child(3) .text-wrapper {margin-top: 60px;}
 .our-feature-app .feature-img-box {position: relative;padding-right: 90px;}
 .our-feature-app .feature-img-box .feature-offer-box {
-  padding: 45px 15px 30px 35px;
-  margin-bottom: 45px;
+  padding: 20px 15px 14px 35px;
+  margin-bottom: 24px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 25px 50px 0px rgba(78, 81, 144, 0.07);
@@ -4343,7 +4343,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .our-feature-app .feature-img-box .feature-offer-box .title {
   font-size: 24px;
   color: #4e4e4e;
-  padding: 20px 0 30px;
+  padding: 20px 0 10px;
 }
 .our-feature-app .feature-img-box .feature-offer-box p {color: #8c929d;}
 

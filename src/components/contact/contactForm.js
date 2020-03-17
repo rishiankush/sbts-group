@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { withRouter } from 'react-router-dom';
 
-
 class ContactUsform extends Component {
     constructor(props) {
         super(props);
@@ -73,9 +72,9 @@ class ContactUsform extends Component {
             <div className="AddressComp">
                 <div className="row">
                     <div className="col-md-12">
-                        <form onSubmit={(e)=>this.submitContactForm(e)}>
                             <div className="card rounded-0">
                                 <div className="card-body p-3">
+                                <form onSubmit={(e)=>this.submitContactForm(e)}>
                                     <div className="form-group">
                                         <div className="input-group mb-2">
                                             <div className="input-group-prepend">
@@ -109,14 +108,14 @@ class ContactUsform extends Component {
                                             <textarea name="message" onChange={(e)=>this.onChange(e)} id="message" className="form-control" placeholder="Message" required></textarea>
                                         </div>
                                     </div>
-
                                     <div className="text-center">
                                         <input type="submit" value="Send Message" className="btn btn-info rounded-0 py-2" />
                                     </div>
+                                    </form>
                                 </div>
-
+                                
                             </div>
-                        </form>
+                        
                     </div>
                 </div>
             </div>

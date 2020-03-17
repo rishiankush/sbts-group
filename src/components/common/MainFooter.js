@@ -48,6 +48,8 @@ class Footer extends Component {
                                         <p><div className="mappin"><img src={LocationMap} /></div><span>Washington, DC, USA</span></p>
                                         <p><div className="mappin"><img src={LocationMap} /></div><span>Freetown, Sierra Leone</span></p>
                                         <p><div className="mappin"><img src={LocationMap} /></div><span> Pune, India </span></p>
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span> Monrovia, Liberia </span></p>
+                                        <p><div className="mappin"><img src={LocationMap} /></div><span> Kinsasha, Congo </span></p>
                                     </div>
 
                                     <ul className="FooterIcons">
