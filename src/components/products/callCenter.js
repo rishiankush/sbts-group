@@ -32,7 +32,6 @@ class CallCenter extends Component {
                      <p> We support our partners with travel arrangements for all types of travel and concierge services. We provide customized itineraries and an easy direct line when things go awry. </p>
                     <h2> Support Services </h2>
                     <p> Have a customized service that needs a solution. We can handle it. Our associates can adapt and product or service to streamline its effectiveness you your end customers. </p>
-                    <p> this one is remaining. please let me know where I need to edit or add this content. </p> 
                   </div>
                 </div>
               </div>
