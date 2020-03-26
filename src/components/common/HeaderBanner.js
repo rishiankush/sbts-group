@@ -3,14 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { withRouter } from 'react-router-dom';
 import bannershape1 from '../../assets/images/shape/bannerShape1.png';
 
-
 class HeaderBanner extends Component {
     constructor(props) {
         super(props);
         this.state = {
         };
-    }
-
+	}
+	
     render() {
         return (
 			<div id="theme-banner-one">
@@ -31,7 +30,7 @@ class HeaderBanner extends Component {
 					<div className="main-wrapper">
 						<h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">Global Full <br />Service  <br />ICT company.</h1>
 						<ul className="button-group lightgallery">
-						{/* <li><a data-fancybox href="#" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">Learn about our Company. <i class="flaticon-play-button icon-right"></i></a></li> */}
+						<li><a data-fancybox href="#" className="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">Learn about our Company. <i class="flaticon-play-button icon-right"></i></a></li>
 						</ul>
 					</div>
 				</div>
